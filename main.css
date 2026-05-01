@@ -4,9 +4,34 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  background: #e5e5e5;
+  background: #f68b29;
     font-family: "Crimson Text", serif;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#issue-one {
+  background-color: #78c143;
+  padding: 50px;
+  padding-left: 50px;
+  width: -webkit-fill-available;
+}
+
+.text-block {
+  max-width: 900px;
+}
+
+h1,h2,h3 {
+  font-family: "synthemesc", sans-serif;
+  text-transform: uppercase;
+}
+
+.calendar {
+  width: 1200px;
+  max-width: 100%;
+  padding-bottom: 50px;
 }
 
 #intro{
