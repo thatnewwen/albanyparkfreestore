@@ -156,6 +156,10 @@ h1{
   max-width: 150px;
 }
 
+A{
+  color: white;
+}
+
  @media (max-width: 600px) {
   #issue {
     padding: 15px;
